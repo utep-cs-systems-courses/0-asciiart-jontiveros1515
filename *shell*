@@ -1,0 +1,172 @@
+student@systems-vm:~/0-asciiart-jontiveros1515> make
+make: Nothing to be done for 'all'.
+student@systems-vm:~/0-asciiart-jontiveros1515> pwd
+/home/student/0-asciiart-jontiveros1515
+student@systems-vm:~/0-asciiart-jontiveros1515> ./asciidraw 
+Welcome!
+Select which shape you want to print (Triangle = t, Square = s, Chars = c) or 'q' to quit
+> mq
+Unrecognized option 'm', please try again!
+Select which shape you want to print (Triangle = t, Square = s, Chars = c) or 'q' to quit
+> Bye!
+student@systems-vm:~/0-asciiart-jontiveros1515> make
+cc -g -O3    -c -o uimain.o uimain.c
+uimain.c: In function ‘main’:
+uimain.c:21:7: warning: implicit declaration of function ‘print_arrow’; did you mean ‘print_square’? [-Wimplicit-function-declaration]
+       print_arrow(5, 7);
+       ^~~~~~~~~~~
+       print_square
+cc -o asciidraw -g -O3  draw_shapes.o draw_chars.o 11x16font.o uimain.o
+student@systems-vm:~/0-asciiart-jontiveros1515> make
+make: Nothing to be done for 'all'.
+student@systems-vm:~/0-asciiart-jontiveros1515> ./asciidraw 
+Welcome!
+Select which shape you want to print (arrow = t, Square = s, Chars = c) or 'q' to quit
+> t
+You selected arrow:
+            *
+           ***
+          *****
+         *******
+        *********
+       ***********
+      *************
+     ***************
+     *******
+     *******
+     *******
+     *******
+     *******
+     *******
+     *******
+Select which shape you want to print (arrow = t, Square = s, Chars = c) or 'q' to quit
+> c
+You selected chars:
+  ***           
+  ******        
+     ******     
+     ** ******  
+     **    *****
+     **    *****
+     ** ******  
+     ******     
+  ******        
+  ***           
+                
+  **************
+  **************
+  **    **    **
+  **    **    **
+  **    **    **
+  **    **    **
+  **    ***  ***
+  ***  ******** 
+   ****** ****  
+    ****        
+                
+      ******    
+    **********  
+   ***      *** 
+  ***        ***
+  **          **
+  **          **
+  **          **
+  ***        ***
+   ***      *** 
+    **      **  
+                
+Select which shape you want to print (arrow = t, Square = s, Chars = c) or 'q' to quit
+> q
+Bye!
+student@systems-vm:~/0-asciiart-jontiveros1515> ls
+11x16font.c  5x7-font.c   asciidraw     draw_chars.o  draw_shapes.c  LICENSE   README.md  uimain.o
+11x16font.o  8x12-font.c  draw_chars.c  draw.h        draw_shapes.o  Makefile  uimain.c
+student@systems-vm:~/0-asciiart-jontiveros1515> make
+make: Nothing to be done for 'all'.
+student@systems-vm:~/0-asciiart-jontiveros1515> make
+make: Nothing to be done for 'all'.
+student@systems-vm:~/0-asciiart-jontiveros1515> ./asciidraw 
+Welcome!
+Select which shape you want to print (arrow = t, Square = s, Chars = c) or 'q' to quit
+> c
+You selected chars:
+  ***           
+  ******        
+     ******     
+     ** ******  
+     **    *****
+     **    *****
+     ** ******  
+     ******     
+  ******        
+  ***           
+                
+  **************
+  **************
+  **    **    **
+  **    **    **
+  **    **    **
+  **    **    **
+  **    ***  ***
+  ***  ******** 
+   ****** ****  
+    ****        
+                
+      ******    
+    **********  
+   ***      *** 
+  ***        ***
+  **          **
+  **          **
+  **          **
+  ***        ***
+   ***      *** 
+    **      **  
+                
+Select which shape you want to print (arrow = t, Square = s, Chars = c) or 'q' to quit
+> q
+Bye!
+student@systems-vm:~/0-asciiart-jontiveros1515> make
+make: Nothing to be done for 'all'.
+student@systems-vm:~/0-asciiart-jontiveros1515> make
+make: Nothing to be done for 'all'.
+student@systems-vm:~/0-asciiart-jontiveros1515> ./asciidraw 
+Welcome!
+Select which shape you want to print (arrow = t, Square = s, Chars = c) or 'q' to quit
+> c
+You selected chars:
+  ***           
+  ******        
+     ******     
+     ** ******  
+     **    *****
+     **    *****
+     ** ******  
+     ******     
+  ******        
+  ***           
+                
+  **************
+  **************
+  **    **    **
+  **    **    **
+  **    **    **
+  **    **    **
+  **    ***  ***
+  ***  ******** 
+   ****** ****  
+    ****        
+                
+      ******    
+    **********  
+   ***      *** 
+  ***        ***
+  **          **
+  **          **
+  **          **
+  ***        ***
+   ***      *** 
+    **      **  
+                
+Select which shape you want to print (arrow = t, Square = s, Chars = c) or 'q' to quit
+> 
